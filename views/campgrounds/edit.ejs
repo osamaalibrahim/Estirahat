@@ -1,7 +1,7 @@
 <% layout('layouts/boilerplate')%>
 <div class="row">
     <h1 class="text-center">تعديل الاستراحة</h1>
-    <div class="col-md-6 offset-md-3">
+    <div class="col-md-6 mx-auto">
         <form action="/campgrounds/<%=campground._id%>?_method=PUT" method="POST" novalidate class="validated-form"
             enctype="multipart/form-data">
             <div class="mb-3">
@@ -27,7 +27,7 @@
                     <span class="input-group-text" id="price-label">SR</span>
                     <input type="text" class="form-control" id="price" placeholder="0.00" aria-label="price"
                         aria-describedby="price-label" name="campground[price]" value="<%=campground.price %>"
-                        required>\<div class="valid-feedback">
+                        required><div class="valid-feedback">
                         رائع!
                     </div>
                 </div>
@@ -64,7 +64,7 @@
                 <button class="btn btn-info">تعديل الاستراحة</button>
             </div>
         </form>
-        <a href="/campgrounds/<%= campground._id%>" class="btn btn-lg btn-info font-weight-bold border-info bg-info">العودة للاستراحة</a>
+        <a href="/campgrounds/<%= campground._id%>" class="btn  btn-info font-weight-bold border-info bg-info">العودة للاستراحة</a>
 
     </div>
 </div>
