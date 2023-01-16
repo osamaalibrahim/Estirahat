@@ -1,1 +1,1 @@
-# [Estirahat Websute](https://estirahat.herokuapp.com)
+# [Estirahat Website](https://estirahat.herokuapp.com)
